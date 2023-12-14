@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Path: Resto\resources\css\app.css */
+#topBar {
+    width: 100%;
+    padding-top: 100%;
+}

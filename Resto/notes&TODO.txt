@@ -1,0 +1,41 @@
+Fichier à supprimer avant le rendu
+Taches josué:
+D=DONE
+système de commentaire en AJAX
+D -> permettre l'ajout d'un commentaires dans la Table
+D    -> espace texte
+D    -> note sur 5 étoile
+D    possibilité d'envoyer juste du texte, juste une note ou les deux.
+-> relier le commentaire à l'utilisateur actuellement connectés.
+D -> affichage en direct des commentaires
+
+TAGS
+D-> faire une table des tags reliés avec les restaurants en multi jesaispluquoi.
+-> affichage dans le CRUD
+
+CRUD
+-> template général d'un CRUD
+-> héritable par tout type de MODEL
+-> généré dans toutes les page ADMIN du site.
+-> en HAUT:
+    -> bouton ajouter
+    -> searchbar
+    -> recherche avancée avec recherche par tags
+-> dans la table: champs d'informations puis cases "actions" en dernière qui comprend les boutons
+    modifiez et supprimez
+
+-> prevent erreurs sur formulaire commentaires
+
+maj :
+D - fais un petit "npm install" (jai ajouté bootstrap avec composer et link main.blade au tailwind)
+- change APP_URL=http://localhost par APP_URL=http://localhost:8000 sinon les pdp chargent pas (et surement dautres trucs quon voit pas)
+
+- créer un compte admin et modifie sa valeur de la colonne admin à 1 dans la bdd --> MAGIE le dashboard change !!!
+
+
+TODO Thomas :
+continuer CRUD :
+- ajouter les commentaires
+- permettre la modification/suppression/ajout de donné via ces pages
+- y placer l'ajout de photos (si le temps le permet)
+- ajouter un middleware à chaque page pour bloquer l'acces
